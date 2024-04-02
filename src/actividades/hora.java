@@ -6,12 +6,12 @@ package actividades;
 /** 
  * 
  */
-public class Act1 {
+public class hora  {
 
 	/**
 	 * 
 	 */
-	public Act1() {
+	public hora () {
 		// TODO Auto-generated constructor stub
 	}
 
