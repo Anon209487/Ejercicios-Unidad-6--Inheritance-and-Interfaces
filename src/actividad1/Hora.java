@@ -1,7 +1,7 @@
 /**
  * 
  */
-package actividades;
+package actividad1;
 
 /**
  * 

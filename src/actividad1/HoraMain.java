@@ -1,7 +1,7 @@
 /**
  * 
  */
-package actividades;
+package actividad1;
 
 import java.util.Scanner;
 
@@ -61,6 +61,5 @@ public class HoraMain {
 
 	public static void modificarsegundos(HoraExacta tHoraExacta1) {
 		tHoraExacta1.inc();
-
 	}
 }
