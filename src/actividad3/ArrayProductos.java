@@ -3,8 +3,6 @@
  */
 package actividad3;
 
-
-
 /**
  * 
  */
@@ -13,19 +11,27 @@ public class ArrayProductos {
 
 	/**
 	 * 
+	 * @param nombre
 	 */
 	public static void nuevoProductoArrayProductose(Productos nombre) {
 		boolean verificacion = false;
 		int contador = 0;
-		while (contador < array.length &&  verificacion==false) {
-			if (array[contador] == null) {
-				array[contador] = nombre;
-				verificacion = true;
+		if (nombre != null) {
+			while (contador < array.length && verificacion == false) {
+				if (array[contador] == null) {
+					array[contador] = nombre;
+					verificacion = true;
+				}
+
+				contador++;
 			}
-			
-			contador++;
 		}
+
 	}
+
+	/**
+	 * 
+	 */
 
 	public static void ListarroductosArray() {
 		for (int i = 0; i < array.length; i++) {
@@ -37,9 +43,16 @@ public class ArrayProductos {
 
 	}
 
+	/**
+	 * 
+	 * @param posicion
+	 */
 	public static void EliminarproductoArray(int posicion) {
 		// TODO Auto-generated method stub
-		array[posicion] = null;
+		if (posicion < array.length && posicion >= 0) {
+			array[posicion] = null;
+		}
+
 	}
 
 }

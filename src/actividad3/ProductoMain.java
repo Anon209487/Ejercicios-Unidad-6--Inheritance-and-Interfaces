@@ -15,10 +15,10 @@ public class ProductoMain {
 	 */
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		int posicion = 0;
 		double precio = 0;
 		String nombre = "";
-		// TODO Auto-generated method stub
 		int seleccion = 0;
 		while (seleccion != 4) {
 			System.out.println("-------------------------");
@@ -47,14 +47,21 @@ public class ProductoMain {
 		}
 	}
 
+	/**
+	 * 
+	 * @param posicion
+	 */
 	public static void Eliminarproducto(int posicion) {
 
-		if (posicion < 9 && posicion > 0) {
-			ArrayProductos.EliminarproductoArray(posicion);
-		}
+		ArrayProductos.EliminarproductoArray(posicion);
 
 	}
 
+	/**
+	 * 
+	 * @param precio
+	 * @param nombre
+	 */
 	public static void anyadirProducto(double precio, String nombre) {
 
 		Productos producto = new Productos(nombre, precio);

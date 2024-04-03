@@ -18,13 +18,20 @@ public class Productos {
 	 */
 	public Productos(String nombre, double precio) {
 		// TODO Auto-generated constructor stub
-		this.nombre = nombre;
-		this.precio = precio;
+		if (nombre != null || nombre != "") {
+			this.nombre = nombre;
+		}
+		if (precio > 0) {
+			this.precio = precio;
+		}
+
 	}
+
 	public String toString() {
-	
-		return " nombre: " + nombre + " nombre: " + precio;
+
+		return " nombre: " + nombre + " precio: " + precio;
 	}
+
 	public double calcular(int cantidadProductos) {
 		Double resultado = 0.0;
 		if (cantidadProductos > 0) {
@@ -45,7 +52,9 @@ public class Productos {
 	 * @param nombre the nombre to set
 	 */
 	public void setNombre(String nombre) {
-		this.nombre = nombre;
+		if (nombre != null || nombre != "") {
+			this.nombre = nombre;
+		}
 	}
 
 	/**
@@ -59,7 +68,9 @@ public class Productos {
 	 * @param precio the precio to set
 	 */
 	public void setPrecio(double precio) {
-		this.precio = precio;
+		if (precio > 0) {
+			this.precio = precio;
+		}
 	}
 
 }
