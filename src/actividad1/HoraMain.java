@@ -19,7 +19,6 @@ public class HoraMain {
 		HoraMain.reloj(HoraExacta1);
 		HoraMain.modificarsegundos(HoraExacta1);
 	}
-
 	public static HoraExacta crearHora() {
 		Scanner scanner = new Scanner(System.in);
 		int segundo;
