@@ -57,8 +57,8 @@ public class Electrodomestico {
 	}
 
 	public void comprobarColor(String color) {
-		if (color == "blanco" || color == "blanco" || color == "blanco" || color == "blanco" || color == "blanco"
-				|| color == "blanco") {
+		color = color.toLowerCase();
+		if (color == "blanco" || color == "negro" || color == "rojo" || color == "azul" || color == "gris") {
 			this.color = color;
 		}
 	}
