@@ -1,1 +1,0 @@
-Ejercicios-Unidad-6--Inheritance-and-Interfaces Aqui estan los tres ejercicios profesora el tercero no me termina de salir de la manera correcta por el tema del metodo para comparar ojetos pero es funcional y el main no me ha quedado muy largo
