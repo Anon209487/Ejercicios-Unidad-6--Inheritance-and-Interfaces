@@ -64,7 +64,7 @@ public class ProductoMain {
 	 */
 	public static void anyadirProducto(double precio, String nombre) {
 
-		Productos producto = new Productos(nombre, precio);
+		Productos producto = new NoPerecedero(nombre, precio, nombre);
 		ArrayProductos.nuevoProductoArrayProductose(producto);
 
 	}

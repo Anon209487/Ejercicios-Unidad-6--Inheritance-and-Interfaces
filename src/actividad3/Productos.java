@@ -8,7 +8,7 @@ package actividad3;
  */
 
 public class Productos {
-	private String nombre;
+	private String nombre="";
 	protected double precio;
 
 	/**
@@ -18,7 +18,7 @@ public class Productos {
 	 */
 	public Productos(String nombre, double precio) {
 		// TODO Auto-generated constructor stub
-		if (nombre != null || nombre != "") {
+		if (nombre != null && nombre != "") {
 			this.nombre = nombre;
 		}
 		if (precio > 0) {
@@ -52,7 +52,7 @@ public class Productos {
 	 * @param nombre the nombre to set
 	 */
 	public void setNombre(String nombre) {
-		if (nombre != null || nombre != "") {
+		if (nombre != null && nombre != "") {
 			this.nombre = nombre;
 		}
 	}

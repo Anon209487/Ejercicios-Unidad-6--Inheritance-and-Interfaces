@@ -10,7 +10,7 @@ public class NoPerecedero extends Productos {
 	/**
 	 * 
 	 */
-	private String tipo;
+	private String tipo = "";
 
 	/**
 	 * 
@@ -21,7 +21,7 @@ public class NoPerecedero extends Productos {
 	public NoPerecedero(String nombre, double precio, String tipo) {
 		super(nombre, precio);
 		// TODO Auto-generated constructor stub
-		if (tipo != null || tipo != "") {
+		if (tipo != null && tipo != "") {
 			this.tipo = tipo;
 		}
 
@@ -54,7 +54,7 @@ public class NoPerecedero extends Productos {
 	 * @param tipo the tipo to set
 	 */
 	public void setTipo(String tipo) {
-		if (tipo != null || tipo != "") {
+		if (tipo != null && tipo != "") {
 			this.tipo = tipo;
 		}
 	}
