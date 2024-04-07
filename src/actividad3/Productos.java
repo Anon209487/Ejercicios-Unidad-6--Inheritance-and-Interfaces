@@ -8,7 +8,7 @@ package actividad3;
  */
 
 public class Productos {
-	private String nombre="";
+	private String nombre = "";
 	protected double precio;
 
 	/**
@@ -73,4 +73,9 @@ public class Productos {
 		}
 	}
 
+	public boolean equals(Object obj) {
+		Productos empleadoComparacion = (Productos) obj;
+		return this.getNombre().equals(empleadoComparacion.getNombre());
+
+	}
 }

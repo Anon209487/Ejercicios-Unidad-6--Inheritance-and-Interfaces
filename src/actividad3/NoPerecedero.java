@@ -36,7 +36,7 @@ public class NoPerecedero extends Productos {
 	}
 
 	/**
-	 * 
+	 * @overwrite
 	 */
 	public String toString() {
 		String nombreYFuncion = super.toString();

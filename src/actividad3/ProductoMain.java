@@ -16,7 +16,6 @@ public class ProductoMain {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int posicion = 0;
 		double precio = 0;
 		String nombre = "";
 		int seleccion = 0;
@@ -40,8 +39,10 @@ public class ProductoMain {
 				break;
 
 			case 3:
-				posicion = new Scanner(System.in).nextInt();
-				ProductoMain.Eliminarproducto(posicion);
+
+				nombre = new Scanner(System.in).nextLine();
+				precio = new Scanner(System.in).nextDouble();
+				ProductoMain.Eliminarproducto(nombre, precio);
 				break;
 			}
 		}
@@ -51,9 +52,9 @@ public class ProductoMain {
 	 * 
 	 * @param posicion
 	 */
-	public static void Eliminarproducto(int posicion) {
+	public static void Eliminarproducto(String nombre, double precio) {
 
-		ArrayProductos.EliminarproductoArray(posicion);
+		ArrayProductos.EliminarproductoArray(nombre, precio);
 
 	}
 

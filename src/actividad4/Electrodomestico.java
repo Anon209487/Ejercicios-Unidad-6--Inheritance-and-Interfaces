@@ -16,11 +16,10 @@ public class Electrodomestico {
 	 * 
 	 */
 	public Electrodomestico() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public Electrodomestico(double preciobase, double peso) {
-		// TODO Auto-generated constructor stub
 
 		if (preciobase >= 0) {
 			this.preciobase = preciobase;
@@ -32,7 +31,7 @@ public class Electrodomestico {
 	}
 
 	public Electrodomestico(double preciobase, String color, char consumoenergético, double peso) {
-		// TODO Auto-generated constructor stub
+
 		if (consumoenergético != ' ') {
 			comprobarConsumoEnergetico(consumoenergético);
 		}

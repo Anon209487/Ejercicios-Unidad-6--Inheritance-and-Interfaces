@@ -24,7 +24,7 @@ public class Perecedero extends Productos {
 		// TODO Auto-generated constructor stub
 	}
 
-	/**
+	/**@overwrite
 	 * 
 	 */
 	public String toString() {
