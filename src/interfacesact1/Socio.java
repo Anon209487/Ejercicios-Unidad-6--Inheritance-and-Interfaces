@@ -85,10 +85,10 @@ public class Socio implements Comparable<Object> {
 	 * 
 	 */
 	public String toString() {
-		String imprimirSocio = "El anumal es: " + "/n";
-		imprimirSocio += "id: " + this.id + "/n";
-		imprimirSocio += "nombre: " + this.nombre + "/n";
-		imprimirSocio += "edad: " + this.edad + "/n";
+		String imprimirSocio = "Los datos de nuestro socio son: " + "\n";
+		imprimirSocio += "id: " + this.id + "\n";
+		imprimirSocio += "nombre: " + this.nombre + "\n";
+		imprimirSocio += "edad: " + this.edad + "\n";
 
 		return imprimirSocio;
 	}
@@ -108,4 +108,17 @@ public class Socio implements Comparable<Object> {
 		return res;
 	}
 
+	/**
+	 * 
+	 */
+	public boolean equals(Object obj) {
+		boolean res = false;
+		Socio SocioComparacion = (Socio) obj;
+		if (id == SocioComparacion.id) {
+			res = true;
+		}
+
+		return res;
+
+	}
 }
