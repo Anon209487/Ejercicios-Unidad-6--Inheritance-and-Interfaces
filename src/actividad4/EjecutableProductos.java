@@ -9,7 +9,7 @@ public class EjecutableProductos {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		double sumaLavadora = 0;
 		double sumaElectrodomesticos = 0;
 		double sumaTelevision = 0;
