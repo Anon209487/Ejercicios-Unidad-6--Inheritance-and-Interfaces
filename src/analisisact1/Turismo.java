@@ -8,7 +8,11 @@ package analisisact1;
  */
 public class Turismo extends Vehiculo {
 	private int plazas;
-	private String uso = "";
+	tiposUso uso;
+
+	private enum tiposUso {
+		profesional, particular
+	};
 
 	Turismo() {
 		super();
@@ -20,44 +24,27 @@ public class Turismo extends Vehiculo {
 			this.plazas = plazas;
 		}
 		if (uso != null && !uso.equals("")) {
-			this.uso = uso;
+			if (uso.equals("profesional")) {
+				this.uso = tiposUso.profesional;
+			} else if (uso.equals("particular")) {
+				this.uso = tiposUso.particular;
+			}
 		}
 	}
 
-	/**
-	 * @return the plazas
-	 */
-	public int getPlazas() {
-		return plazas;
-	}
-
-	/**
-	 * @return the uso
-	 */
-	public String getUso() {
-		return uso;
-	}
-
 	public boolean Parar() {
-		return motorEncido;
+		return super.Parar();
 	}
 
 	public boolean Arrancar() {
-		return motorEncido;
-	}
-
-	public int marchaSubir() {
-		return 0;
-	}
-
-	public void marchaBajar() {
+		return super.Arrancar();
 	}
 
 	public String toString() {
-		String Turismo=super.toString();
-		Turismo 
-
-		return vehiculo;
+		String Turismo = super.toString();
+		Turismo += "\n" + "plazas " + plazas + "\n";
+		Turismo += "uso " + plazas + "\n";
+		return Turismo;
 	}
 
 }

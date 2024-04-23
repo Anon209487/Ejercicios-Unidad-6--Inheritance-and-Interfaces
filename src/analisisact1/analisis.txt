@@ -40,8 +40,9 @@ camione extends vehículos
 motocicleta extends vehículo
 
 	- cilindrada :double
-	- requiere carnet:boolean.
+
 	----------------------------
+		- requiere carnet:boolean.()
 	heredados:
 	+Parar.() : boolean
     +Arrancar.() : boolean

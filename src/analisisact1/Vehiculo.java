@@ -11,9 +11,8 @@ public class Vehiculo {
 	private String modelo = "";
 	private String color = "";
 	private String matrícula = "";
-	private boolean motorEncido = false;
-	private boolean motorapagado = true;
-	private double marchaActual = 0;
+	protected boolean motorEncido = false;
+	private int marchaActual = 0;
 	private double velocidadaActual = 0;
 
 	Vehiculo() {
@@ -36,34 +35,6 @@ public class Vehiculo {
 	}
 
 	/**
-	 * @return the motorEncido
-	 */
-	public boolean isMotorEncido() {
-		return motorEncido;
-	}
-
-	/**
-	 * @param motorEncido the motorEncido to set
-	 */
-	public void setMotorEncido(boolean motorEncido) {
-		this.motorEncido = motorEncido;
-	}
-
-	/**
-	 * @return the motorapagado
-	 */
-	public boolean isMotorapagado() {
-		return motorapagado;
-	}
-
-	/**
-	 * @param motorapagado the motorapagado to set
-	 */
-	public void setMotorapagado(boolean motorapagado) {
-		this.motorapagado = motorapagado;
-	}
-
-	/**
 	 * @return the marchaActual
 	 */
 	public double getMarchaActual() {
@@ -73,8 +44,11 @@ public class Vehiculo {
 	/**
 	 * @param marchaActual the marchaActual to set
 	 */
-	public void setMarchaActual(double marchaActual) {
-		this.marchaActual = marchaActual;
+	public void setMarchaActual(int marchaActual) {
+		if (marchaActual > 0) {
+			this.marchaActual = marchaActual;
+		}
+
 	}
 
 	/**
@@ -88,22 +62,31 @@ public class Vehiculo {
 	 * @param velocidadaActual the velocidadaActual to set
 	 */
 	public void setVelocidadaActual(double velocidadaActual) {
-		this.velocidadaActual = velocidadaActual;
+		if (velocidadaActual > 0) {
+			this.velocidadaActual = velocidadaActual;
+			if (velocidadaActual < 30 && velocidadaActual >= 50) {
+				setMarchaActual(1);
+			} else if (velocidadaActual < 30 && velocidadaActual >= 50) {
+				setMarchaActual(2);
+			} else if (velocidadaActual < 50 && velocidadaActual >= 70) {
+				setMarchaActual(3);
+			} else if (velocidadaActual < 70 && velocidadaActual >= 50) {
+				setMarchaActual(4);
+			} else if (velocidadaActual > 100) {
+				setMarchaActual(5);
+			}
+
+		}
 	}
 
 	public boolean Parar() {
+		boolean motorEncido = true;
 		return motorEncido;
 	}
 
 	public boolean Arrancar() {
+		boolean motorEncido = true;
 		return motorEncido;
-	}
-
-	public int marchaSubir() {
-		return 0;
-	}
-
-	public void marchaBajar() {
 	}
 
 	public String toString() {
