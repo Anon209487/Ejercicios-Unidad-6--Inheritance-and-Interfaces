@@ -1,0 +1,319 @@
+src/actividad1/Hora.java:9:	ShortClassName:	ShortClassName: Avoid short class names like Hora
+src/actividad1/Hora.java:11:	AvoidFieldNameMatchingTypeName:	AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name
+src/actividad1/Hora.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad1/Hora.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad1/Hora.java:29:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/Hora.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'hora' is not assigned and could be declared final
+src/actividad1/Hora.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'minutos' is not assigned and could be declared final
+src/actividad1/Hora.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/Hora.java:44:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad1/Hora.java:48:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad1/Hora.java:56:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/Hora.java:56:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setMinutos' should not return any type except void linguistically
+src/actividad1/Hora.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'valor' is not assigned and could be declared final
+src/actividad1/Hora.java:59:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/actividad1/Hora.java:65:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/Hora.java:65:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setHora' should not return any type except void linguistically
+src/actividad1/Hora.java:65:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'valor' is not assigned and could be declared final
+src/actividad1/Hora.java:68:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/actividad1/Hora.java:74:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad1/HoraExacta.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/actividad1/HoraExacta.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad1/HoraExacta.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/HoraExacta.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'hora' is not assigned and could be declared final
+src/actividad1/HoraExacta.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'minutos' is not assigned and could be declared final
+src/actividad1/HoraExacta.java:6:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'segundos' is not assigned and could be declared final
+src/actividad1/HoraExacta.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/HoraExacta.java:21:	LinguisticNaming:	LinguisticNaming: Linguistics Antipattern - The setter 'setSegundo' should not return any type except void linguistically
+src/actividad1/HoraExacta.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'valor' is not assigned and could be declared final
+src/actividad1/HoraExacta.java:24:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/actividad1/HoraExacta.java:30:	MissingOverride:	MissingOverride: The method 'inc()' is missing an @Override annotation.
+src/actividad1/HoraExacta.java:31:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad1/HoraExacta.java:39:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad1/HoraMain.java:11:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/actividad1/HoraMain.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'HoraExacta1' could be declared final
+src/actividad1/HoraMain.java:18:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'HoraExacta1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad1/HoraMain.java:18:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'HoraMain': 'crearHora' is already in scope
+src/actividad1/HoraMain.java:19:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'HoraMain': 'reloj' is already in scope
+src/actividad1/HoraMain.java:20:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'HoraMain': 'modificarsegundos' is already in scope
+src/actividad1/HoraMain.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/HoraMain.java:23:	CloseResource:	CloseResource: Ensure that resources like this Scanner object are closed after use
+src/actividad1/HoraMain.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'scanner' could be declared final
+src/actividad1/HoraMain.java:27:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad1/HoraMain.java:31:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'HoraExacta1' could be declared final
+src/actividad1/HoraMain.java:31:	LocalVariableNamingConventions:	LocalVariableNamingConventions: The local variable name 'HoraExacta1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad1/HoraMain.java:36:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/HoraMain.java:36:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'HoraExacta1' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad1/HoraMain.java:36:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'HoraExacta1' is not assigned and could be declared final
+src/actividad1/HoraMain.java:38:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad1/HoraMain.java:41:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad1/HoraMain.java:45:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad1/HoraMain.java:49:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad1/HoraMain.java:54:	DoNotUseThreads:	DoNotUseThreads: To be compliant to J2EE, a webapp should not use any thread.
+src/actividad1/HoraMain.java:56:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad1/HoraMain.java:61:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad1/HoraMain.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tHoraExacta1' is not assigned and could be declared final
+src/actividad2/Directivo.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/actividad2/Directivo.java:5:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/actividad2/Directivo.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad2/Directivo.java:10:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad2/Directivo.java:12:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'nombreYFuncion' is never used
+src/actividad2/Empleado.java:20:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad2/Empleado.java:21:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad2/Empleado.java:21:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad2/Empleado.java:37:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad2/Empleado.java:41:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad2/Oficial.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/actividad2/Oficial.java:5:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/actividad2/Oficial.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad2/Oficial.java:10:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad2/Oficial.java:12:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'nombreYFuncion' is never used
+src/actividad2/Operario.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/actividad2/Operario.java:5:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/actividad2/Operario.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad2/Operario.java:10:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad2/Operario.java:12:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'nombreYFuncion' is never used
+src/actividad2/Tecnico.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/actividad2/Tecnico.java:5:	CommentRequired:	CommentRequired: Protected method constructor comments are required
+src/actividad2/Tecnico.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad2/Tecnico.java:10:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad2/Tecnico.java:12:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'nombreYFuncion' is never used
+src/actividad3/ArrayProductos.java:9:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/actividad3/ArrayProductos.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'productos'
+src/actividad3/ArrayProductos.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad3/ArrayProductos.java:10:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/actividad3/ArrayProductos.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad3/ArrayProductos.java:20:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/actividad3/ArrayProductos.java:25:	SimplifyBooleanExpressions:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/actividad3/ArrayProductos.java:41:	MethodNamingConventions:	MethodNamingConventions: The static method name 'ListarroductosArray' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad3/ArrayProductos.java:42:	ForLoopCanBeForeach:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/actividad3/ArrayProductos.java:44:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad3/ArrayProductos.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad3/ArrayProductos.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad3/ArrayProductos.java:55:	MethodNamingConventions:	MethodNamingConventions: The static method name 'EliminarproductoArray' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad3/ArrayProductos.java:58:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'producto' could be declared final
+src/actividad3/ArrayProductos.java:60:	UselessParentheses:	UselessParentheses: Useless parentheses.
+src/actividad3/ArrayProductos.java:62:	NullAssignment:	NullAssignment: Assigning an Object to null is a code smell.  Consider refactoring.
+src/actividad3/NoPerecedero.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad3/NoPerecedero.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad3/NoPerecedero.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tipo' is not assigned and could be declared final
+src/actividad3/NoPerecedero.java:24:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad3/NoPerecedero.java:24:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad3/NoPerecedero.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cantidadProductos' is not assigned and could be declared final
+src/actividad3/NoPerecedero.java:33:	MissingOverride:	MissingOverride: The method 'calcular(int)' is missing an @Override annotation.
+src/actividad3/NoPerecedero.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'resultado' could be declared final
+src/actividad3/NoPerecedero.java:34:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'resultado'
+src/actividad3/NoPerecedero.java:41:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad3/NoPerecedero.java:43:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'nombreYFuncion' is never used
+src/actividad3/NoPerecedero.java:56:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'tipo' is not assigned and could be declared final
+src/actividad3/NoPerecedero.java:57:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad3/NoPerecedero.java:57:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad3/Perecedero.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad3/Perecedero.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'diasCaducar' is not assigned and could be declared final
+src/actividad3/Perecedero.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad3/Perecedero.java:18:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad3/Perecedero.java:21:	ConstructorCallsOverridableMethod:	ConstructorCallsOverridableMethod: Overridable method called during object construction: Perecedero.setDiasCaducar(int) 
+src/actividad3/Perecedero.java:30:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad3/Perecedero.java:32:	UnusedAssignment:	UnusedAssignment: The value assigned to variable 'nombreYFuncion' is never used
+src/actividad3/Perecedero.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'diasCaducar' is not assigned and could be declared final
+src/actividad3/Perecedero.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cantidadProductos' is not assigned and could be declared final
+src/actividad3/Perecedero.java:49:	MissingOverride:	MissingOverride: The method 'calcular(int)' is missing an @Override annotation.
+src/actividad3/Perecedero.java:51:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad3/Perecedero.java:54:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad3/Perecedero.java:57:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad3/ProductoMain.java:11:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/actividad3/ProductoMain.java:19:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'precio' is never used (overwritten on lines 34 and 44)
+src/actividad3/ProductoMain.java:20:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'nombre' is never used (overwritten on lines 33 and 43)
+src/actividad3/ProductoMain.java:23:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad3/ProductoMain.java:24:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad3/ProductoMain.java:25:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad3/ProductoMain.java:26:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad3/ProductoMain.java:27:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad3/ProductoMain.java:28:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad3/ProductoMain.java:29:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/actividad3/ProductoMain.java:30:	SwitchStmtsShouldHaveDefault:	SwitchStmtsShouldHaveDefault: Switch statements should be exhaustive, add a default case (or missing enum branches)
+src/actividad3/ProductoMain.java:32:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad3/ProductoMain.java:33:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/actividad3/ProductoMain.java:34:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/actividad3/ProductoMain.java:35:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'ProductoMain': 'anyadirProducto' is already in scope
+src/actividad3/ProductoMain.java:43:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/actividad3/ProductoMain.java:44:	AvoidInstantiatingObjectsInLoops:	AvoidInstantiatingObjectsInLoops: Avoid instantiating new objects inside loops
+src/actividad3/ProductoMain.java:45:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'ProductoMain': 'Eliminarproducto' is already in scope
+src/actividad3/ProductoMain.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad3/ProductoMain.java:55:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad3/ProductoMain.java:55:	MethodNamingConventions:	MethodNamingConventions: The static method name 'Eliminarproducto' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad3/ProductoMain.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad3/ProductoMain.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad3/ProductoMain.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'producto' could be declared final
+src/actividad3/Productos.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad3/Productos.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad3/Productos.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad3/Productos.java:19:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad3/Productos.java:21:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad3/Productos.java:21:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad3/Productos.java:30:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/actividad3/Productos.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad3/Productos.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'cantidadProductos' is not assigned and could be declared final
+src/actividad3/Productos.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/actividad3/Productos.java:55:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad3/Productos.java:55:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad3/Productos.java:70:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad3/Productos.java:76:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/actividad3/Productos.java:76:	MissingOverride:	MissingOverride: The method 'equals(Object)' is missing an @Override annotation.
+src/actividad3/Productos.java:76:	OverrideBothEqualsAndHashcode:	OverrideBothEqualsAndHashcode: Ensure you override both equals() and hashCode()
+src/actividad3/Productos.java:77:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'empleadoComparacion' could be declared final
+src/actividad3/Productos.java:77:	LongVariable:	LongVariable: Avoid excessively long variable names like empleadoComparacion
+src/actividad4/EjecutableProductos.java:6:	CommentRequired:	CommentRequired: Class comments are required
+src/actividad4/EjecutableProductos.java:6:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/actividad4/EjecutableProductos.java:14:	LongVariable:	LongVariable: Avoid excessively long variable names like sumaElectrodomesticos
+src/actividad4/EjecutableProductos.java:16:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'electrodomesticos' could be declared final
+src/actividad4/EjecutableProductos.java:17:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'electrodomestico1' could be declared final
+src/actividad4/EjecutableProductos.java:19:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'lavadora' could be declared final
+src/actividad4/EjecutableProductos.java:21:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'lavadora2' could be declared final
+src/actividad4/EjecutableProductos.java:23:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'television' could be declared final
+src/actividad4/EjecutableProductos.java:25:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'television2' could be declared final
+src/actividad4/EjecutableProductos.java:27:	ForLoopCanBeForeach:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/actividad4/EjecutableProductos.java:29:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:31:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:32:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:33:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal ") $ " appears 5 times in this file; the first occurrence is on line 33
+src/actividad4/EjecutableProductos.java:34:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:35:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:38:	SimplifyBooleanExpressions:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/actividad4/EjecutableProductos.java:41:	SimplifyBooleanExpressions:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/actividad4/EjecutableProductos.java:44:	SimplifyBooleanExpressions:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/actividad4/EjecutableProductos.java:49:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:51:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:52:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:53:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/EjecutableProductos.java:55:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/actividad4/Electrodomestico.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad4/Electrodomestico.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad4/Electrodomestico.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad4/Electrodomestico.java:12:	FieldNamingConventions:	FieldNamingConventions: The field name 'consumoenergético' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad4/Electrodomestico.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad4/Electrodomestico.java:18:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/actividad4/Electrodomestico.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Electrodomestico.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'peso' is not assigned and could be declared final
+src/actividad4/Electrodomestico.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'preciobase' is not assigned and could be declared final
+src/actividad4/Electrodomestico.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Electrodomestico.java:33:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'consumoenergético' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad4/Electrodomestico.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/actividad4/Electrodomestico.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumoenergético' is not assigned and could be declared final
+src/actividad4/Electrodomestico.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'peso' is not assigned and could be declared final
+src/actividad4/Electrodomestico.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'preciobase' is not assigned and could be declared final
+src/actividad4/Electrodomestico.java:35:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Electrodomestico.java:36:	ConstructorCallsOverridableMethod:	ConstructorCallsOverridableMethod: Overridable method called during object construction: Electrodomestico.comprobarConsumoEnergetico(char) 
+src/actividad4/Electrodomestico.java:39:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad4/Electrodomestico.java:39:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad4/Electrodomestico.java:40:	ConstructorCallsOverridableMethod:	ConstructorCallsOverridableMethod: Overridable method called during object construction: Electrodomestico.comprobarColor(String) 
+src/actividad4/Electrodomestico.java:51:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Electrodomestico.java:51:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'letra' is not assigned and could be declared final
+src/actividad4/Electrodomestico.java:58:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Electrodomestico.java:59:	AvoidReassigningParameters:	AvoidReassigningParameters: Avoid reassigning parameters such as 'color'
+src/actividad4/Electrodomestico.java:59:	UseLocaleWithCaseConversions:	UseLocaleWithCaseConversions: When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/actividad4/Electrodomestico.java:60:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad4/Electrodomestico.java:60:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad4/Electrodomestico.java:60:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad4/Electrodomestico.java:60:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad4/Electrodomestico.java:60:	CompareObjectsWithEquals:	CompareObjectsWithEquals: Use equals() to compare object references.
+src/actividad4/Electrodomestico.java:60:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad4/Electrodomestico.java:60:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad4/Electrodomestico.java:60:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad4/Electrodomestico.java:60:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad4/Electrodomestico.java:60:	UseEqualsToCompareStrings:	UseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+src/actividad4/Electrodomestico.java:65:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Electrodomestico.java:65:	CyclomaticComplexity:	CyclomaticComplexity: The method 'precioFinal()' has a cyclomatic complexity of 14.
+src/actividad4/Electrodomestico.java:65:	NPathComplexity:	NPathComplexity: The method 'precioFinal()' has an NPath complexity of 3456, current threshold is 200
+src/actividad4/Electrodomestico.java:67:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Electrodomestico.java:71:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Electrodomestico.java:75:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Electrodomestico.java:79:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Electrodomestico.java:83:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Electrodomestico.java:87:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Electrodomestico.java:91:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Electrodomestico.java:121:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getConsumoenergético' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad4/Lavadora.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad4/Lavadora.java:12:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/actividad4/Lavadora.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Lavadora.java:12:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/actividad4/Lavadora.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Lavadora.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'doublepeso' is not assigned and could be declared final
+src/actividad4/Lavadora.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad4/Lavadora.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Lavadora.java:21:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'consumoenergético' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad4/Lavadora.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'carga' is not assigned and could be declared final
+src/actividad4/Lavadora.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/actividad4/Lavadora.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumoenergético' is not assigned and could be declared final
+src/actividad4/Lavadora.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'peso' is not assigned and could be declared final
+src/actividad4/Lavadora.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'preciobase' is not assigned and could be declared final
+src/actividad4/Lavadora.java:37:	MissingOverride:	MissingOverride: The method 'precioFinal()' is missing an @Override annotation.
+src/actividad4/Lavadora.java:40:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Television.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad4/Television.java:10:	FieldNamingConventions:	FieldNamingConventions: The field name 'resolución' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad4/Television.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/actividad4/Television.java:11:	ImmutableField:	ImmutableField: Field 'sintonizadorTDT' may be declared final
+src/actividad4/Television.java:11:	RedundantFieldInitializer:	RedundantFieldInitializer: Avoid using redundant field initializer for 'sintonizadorTDT'
+src/actividad4/Television.java:13:	CallSuperInConstructor:	CallSuperInConstructor: It is a good practice to call super() in a constructor
+src/actividad4/Television.java:13:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Television.java:13:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/actividad4/Television.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Television.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'doublepeso' is not assigned and could be declared final
+src/actividad4/Television.java:17:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'precio' is not assigned and could be declared final
+src/actividad4/Television.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/actividad4/Television.java:22:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'consumoenergético' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad4/Television.java:22:	FormalParameterNamingConventions:	FormalParameterNamingConventions: The method parameter name 'resolución' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad4/Television.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'color' is not assigned and could be declared final
+src/actividad4/Television.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'consumoenergético' is not assigned and could be declared final
+src/actividad4/Television.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'peso' is not assigned and could be declared final
+src/actividad4/Television.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'preciobase' is not assigned and could be declared final
+src/actividad4/Television.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'resolución' is not assigned and could be declared final
+src/actividad4/Television.java:23:	UnusedFormalParameter:	UnusedFormalParameter: Avoid unused constructor parameters such as 'sintonizadorTDT'.
+src/actividad4/Television.java:36:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'getResolución' doesn't match '[a-z][a-zA-Z0-9]*'
+src/actividad4/Television.java:47:	MissingOverride:	MissingOverride: The method 'precioFinal()' is missing an @Override annotation.
+src/actividad4/Television.java:50:	AvoidLiteralsInIfCondition:	AvoidLiteralsInIfCondition: Avoid using literals in if statements
+src/actividad4/Television.java:53:	SimplifyBooleanExpressions:	SimplifyBooleanExpressions: Avoid unnecessary comparisons in boolean expressions
+src/interfacesact1/ArraySocio.java:12:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/interfacesact1/ArraySocio.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/interfacesact1/ArraySocio.java:13:	MutableStaticState:	MutableStaticState: Do not use non-final non-private static fields
+src/interfacesact1/ArraySocio.java:19:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'ArraySocio': 'socios' is already in scope because it is declared in an enclosing type
+src/interfacesact1/ArraySocio.java:20:	ForLoopCanBeForeach:	ForLoopCanBeForeach: This for loop can be replaced by a foreach loop
+src/interfacesact1/ArraySocio.java:21:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/interfacesact1/ArraySocio.java:30:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nuevoSocio' is not assigned and could be declared final
+src/interfacesact1/ArraySocio.java:31:	LongVariable:	LongVariable: Avoid excessively long variable names like nuevoSocioVerificacion
+src/interfacesact1/MainSocios.java:11:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/interfacesact1/MainSocios.java:25:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/interfacesact1/MainSocios.java:27:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/interfacesact1/MainSocios.java:28:	UnusedAssignment:	UnusedAssignment: The initializer for variable 'nombre' is never used (overwritten on line 29)
+src/interfacesact1/MainSocios.java:31:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/interfacesact1/MainSocios.java:32:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'id' could be declared final
+src/interfacesact1/MainSocios.java:32:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/interfacesact1/MainSocios.java:34:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/interfacesact1/MainSocios.java:35:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'edad' could be declared final
+src/interfacesact1/MainSocios.java:37:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'nuevoSocio' could be declared final
+src/interfacesact1/MainSocios.java:38:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/interfacesact1/Socio.java:9:	DataClass:	DataClass: The class 'Socio' is suspected to be a Data Class (WOC=25.000%, NOPA=0, NOAM=6, WMC=20)
+src/interfacesact1/Socio.java:10:	CommentRequired:	CommentRequired: Field comments are required
+src/interfacesact1/Socio.java:10:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/interfacesact1/Socio.java:11:	CommentRequired:	CommentRequired: Field comments are required
+src/interfacesact1/Socio.java:12:	CommentRequired:	CommentRequired: Field comments are required
+src/interfacesact1/Socio.java:14:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on constructor 'Socio()'
+src/interfacesact1/Socio.java:14:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/interfacesact1/Socio.java:23:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on constructor 'Socio(int, String, int)'
+src/interfacesact1/Socio.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'edad' is not assigned and could be declared final
+src/interfacesact1/Socio.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/interfacesact1/Socio.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/interfacesact1/Socio.java:23:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/interfacesact1/Socio.java:27:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/interfacesact1/Socio.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/interfacesact1/Socio.java:45:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/interfacesact1/Socio.java:61:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'nombre' is not assigned and could be declared final
+src/interfacesact1/Socio.java:62:	LiteralsFirstInComparisons:	LiteralsFirstInComparisons: Position literals first in String comparisons
+src/interfacesact1/Socio.java:77:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'edad' is not assigned and could be declared final
+src/interfacesact1/Socio.java:87:	MissingOverride:	MissingOverride: The method 'toString()' is missing an @Override annotation.
+src/interfacesact1/Socio.java:89:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/interfacesact1/Socio.java:90:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/interfacesact1/Socio.java:91:	UseStringBufferForStringAppends:	UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings
+src/interfacesact1/Socio.java:100:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'o' is not assigned and could be declared final
+src/interfacesact1/Socio.java:100:	ShortVariable:	ShortVariable: Avoid variables with short names like o
+src/interfacesact1/Socio.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'per' could be declared final
