@@ -6,7 +6,7 @@ package interfacesact3;
 /**
  * 
  */
-public class AnimalDomestico extends Animal {
+abstract public class AnimalDomestico extends Animal {
 	/**
 	 * 
 	 */
@@ -15,28 +15,7 @@ public class AnimalDomestico extends Animal {
 	private double peso = 0;
 	private String color = "";
 
-	public void vacunar() {
-	}
 
-	public boolean hacerCaso() {
-		return false;
-	}
-
-	@Override
-
-	public void comer() {
-	}
-
-	@Override
-
-	public void dormir() {
-	}
-
-	@Override
-
-	public String hacerRuido() {
-		return "";
-	}
 
 	/**
 	 * @return the nombre
@@ -65,5 +44,24 @@ public class AnimalDomestico extends Animal {
 	public String getColor() {
 		return color;
 	}
+	public void vacunar() {
+	}
 
+	abstract boolean hacerCaso();
+
+	@Override
+
+	public void comer() {
+	}
+
+	@Override
+
+	public void dormir() {
+	}
+
+	@Override
+
+	public String hacerRuido() {
+		return "";
+	}
 }

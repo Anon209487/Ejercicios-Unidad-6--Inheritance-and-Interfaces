@@ -1,0 +1,53 @@
+
+vehículos  
+
+	- marca: String
+	- modelo: String
+	- color : String
+	- matrícula: String
+	- motor está encido : boolean
+	- motor está apagado : boolean
+	- marcha actual: double
+	- velocidad actual : double
+	--------------------------
+	+Parar.() : boolean
+    +Arrancar.() : boolean
+    +Subir marcha.() : int
+    +Bajar marcha.() : int
+			
+turismo extends vehículos
+
+     - plazas :int
+     - tipo de uso: String (profesional | particular)
+	----------------------------
+	heredados:
+	+Parar.() : boolean
+    +Arrancar.() : boolean
+    +Subir marcha.() : int
+    +Bajar marcha.() : int
+
+camione extends vehículos
+
+	- peso máximo : double
+	- transporta mercancía peligros:boolean.
+	----------------------------
+	heredados:
+	+Parar.() : boolean
+    +Arrancar.() : boolean
+    +Subir marcha.() : int
+    +Bajar marcha.() : int
+    
+motocicleta extends vehículo
+
+	- cilindrada :double
+	- requiere carnet:boolean.
+	----------------------------
+	heredados:
+	+Parar.() : boolean
+    +Arrancar.() : boolean
+    +Subir marcha.() : int
+    +Bajar marcha.() : int
+    
+    
+    
+	
