@@ -1,78 +1,52 @@
-ficha interface 
 
-Biblioteca implements Ficha
-
-	- int id.
-	-  String titulo = "".
-	--------------------------
-	+Biblioteca()
-    +Biblioteca(int id, String titulo)
-    +int getId()
-    +String getTitulo()
-	abstract int prestamo()
-	+String toString()
 	
-libro extends Biblioteca
+Contacto extends 
 
-     - String autor = "".
-     - String editorial = "".
-     -private int prestamo = 15.
+   - nombre (String)
+- telefono (String)
 	----------------------------
-	+libro()
-    +libro(String autor, String editorial, int id, String titulo)
-    +String getEditorial()
-    +void setEditorial(String editorial)
-    +String getAutor()
-    +public void setAutor(String autor)
-    +void setPrestamo(int préstamo)
-    +int prestamo()
-    
-    heredados:
-     
-    +String toString()
+ Contacto(String nombre, String telefono)
++  void setNombre(String nombre)
++ String getNombre()
++  void setTelefono(String telefono)
++ String getTelefono()
+ + boolean equals(Contacto contacto)
+ + String toString()
+ 
+ 
+Persona extends Contacto
 
-DVD extends Biblioteca
+- nombre (String)
+- telefono (String)
+- cumpleaños (String)
 
-	- int anyo.
-	- String director = "".
-	- tiposUso genero.
-	-  enum tiposUso {
-		documental, serie, película
-	}
 	----------------------------
 
-	+DVD()
-    +DVD(int id, String titulo, int anyo, String director, String genero)
-    +int getAnyo()
-    +void setAnyo(int anyo)
-    +String getDirector()
-    +int getPrestamo()
-    +void setPrestamo(int préstamo)
-    +int prestamo()
-    
-    heredados:
-    
-    +String toString()
-    
-Revistas extends Biblioteca
++ (String nombre, String telefono, String cumpleaños)
++ acceder y modificar cumpleaños
++ acceder y modificar nombre y teléfono (heredados de la clase Contacto)
 
-	- int anyo
-	-int numero
-	-int prestamo = 10
+Empresa extends Contacto
+
+- nombre (String)
+- telefono (String)
+- página web (String)
 
 	----------------------------
-	+Revistas()
-    +Revistas(int id, String titulo, int anyo, int numero)
-	+int getNumero()
-    +int getAnyo()
-    +void setAnyo(int anyo)
-    +int getPrestamo()
-    + void setPrestamo(int préstamo)
++Constructor público Empresa(String nombre, String telefono, String página web)
++ Métodos públicos para acceder y modificar página web
++ Métodos públicos para acceder y modificar nombre y teléfono (heredados de la clase Contacto)
+
     
-    heredados:
-     
-    String toString()
     
+    
+    
+    
+    
+    
+    
+
+
     
     
 	
