@@ -1,0 +1,25 @@
+CuentasBancarias interface 
+      + enum tipcuentas {
+		ahorro,corriente
+	}
+
+ titular  implements CuentasBancarias
+
+
+   - String DNI, 
+    - String nombre, 
+    - String apellidos 
+    - int teléfono.
+
+	--------------------------
+	+double INGRESAR()
+    +double RETIRAR()
+    +void ELIMINARTITULAR()
+    +void añadir titular()
+    +double getTitulo()
+	+double prestamo()
+	+String toString()
+	
+  
+    
+	
