@@ -9,7 +9,6 @@ package analisisact2;
 public class Revistas extends Biblioteca {
 	private int anyo;
 	private int numero;
-	private int réstamo = 10;
 
 	/**
 	 * 
@@ -39,7 +38,10 @@ public class Revistas extends Biblioteca {
 	 * @param numero the numero to set
 	 */
 	public void setNumero(int numero) {
-		this.numero = numero;
+		if (numero > 0) {
+			this.numero = numero;
+		}
+
 	}
 
 	/**
@@ -53,31 +55,19 @@ public class Revistas extends Biblioteca {
 	 * @param anyo the anyo to set
 	 */
 	public void setAnyo(int anyo) {
-		this.anyo = anyo;
+		if (anyo > 0) {
+			this.anyo = anyo;
+		}
 	}
-
-	/**
-	 * @return the réstamo
-	 */
-	public int getRéstamo() {
-		return réstamo;
-	}
-
-	/**
-	 * @param réstamo the réstamo to set
-	 */
-	public void setRéstamo(int réstamo) {
-		this.réstamo = réstamo;
-	};
 
 	public int prestamo() {
-		return anyo;
+		return 10;
 	}
 
 	public String toString() {
-		String Revistas = super.toString();
-		Revistas += "\n" + "anyo " + anyo + "\n";
-		Revistas += "\n" + "numero " + numero + "\n";
-		return Revistas;
+		String revista = super.toString();
+		revista += "anyo " + anyo + "\n";
+		revista += "numero " + numero + "\n";
+		return revista;
 	}
 }

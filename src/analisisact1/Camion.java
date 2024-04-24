@@ -36,17 +36,10 @@ public class Camion extends Vehiculo {
 		return mercanciaPligrosa;
 	}
 
-	public boolean Parar() {
-		return super.Parar();
-	}
-
-	public boolean Arrancar() {
-		return super.Arrancar();
-	}
 
 	public String toString() {
 		String Camion = super.toString();
-		Camion += "\n" + "pesoMximo " + pesoMximo + "\n";
+		Camion +=  "pesoMximo " + pesoMximo + "\n";
 		Camion += "mercanciaPligrosa " + mercanciaPligrosa + "\n";
 		return Camion;
 	}

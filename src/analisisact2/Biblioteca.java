@@ -10,7 +10,6 @@ public abstract class Biblioteca implements Ficha {
 
 	private int id;
 	private String titulo = "";
-
 	Biblioteca() {
 
 	}
@@ -39,12 +38,12 @@ public abstract class Biblioteca implements Ficha {
 		return titulo;
 	}
 
-	abstract int prestamo();;
+	abstract int prestamo();
 
 	public String toString() {
-		String Biblioteca = "El objeto es : " + "/n";
-		Biblioteca += "marca " + id + "/n";
-		Biblioteca += "modelo " + titulo + "/n";
-		return Biblioteca;
+		String biblioteca = "El objeto es : " + "/n";
+		biblioteca += "marca " + id + "/n";
+		biblioteca += "modelo " + titulo + "/n";
+		return biblioteca;
 	}
 }

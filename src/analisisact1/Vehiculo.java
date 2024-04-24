@@ -80,7 +80,8 @@ public class Vehiculo {
 	}
 
 	public boolean Parar() {
-		boolean motorEncido = true;
+		boolean motorEncido = false;
+		setMarchaActual(0);
 		return motorEncido;
 	}
 

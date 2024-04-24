@@ -28,14 +28,6 @@ public class Moto extends Vehiculo {
 		return cilindrada;
 	}
 
-	public boolean Parar() {
-		return super.Parar();
-	}
-
-	public boolean Arrancar() {
-		return super.Arrancar();
-	}
-
 	public static boolean requiereCarnet() {
 		boolean requiereCarnet = false;
 		return requiereCarnet;
@@ -43,7 +35,7 @@ public class Moto extends Vehiculo {
 
 	public String toString() {
 		String Moto = super.toString();
-		Moto += "\n" + "cilindrada " + cilindrada + "\n";
+		Moto +="cilindrada " + cilindrada + "\n";
 		return Moto;
 	}
 }

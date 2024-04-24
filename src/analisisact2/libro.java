@@ -6,18 +6,17 @@ package analisisact2;
 /**
  * 
  */
-public class Libros extends Biblioteca {
+public class libro extends Biblioteca {
 	private String autor = "";
 	private String editorial = "";
-	private int réstamo = 15;
 
-	Libros() {
+	libro() {
 
 	}
 
-	Libros(String autor, String editorial, int id, String titulo) {
+	libro(String autor, String editorial, int id, String titulo) {
 		super(id, titulo);
-		if (titulo != null && !titulo.equals("")) {
+		if (editorial != null && !editorial.equals("")) {
 			this.editorial = editorial;
 		}
 		if (autor != null && !autor.equals("")) {
@@ -33,7 +32,9 @@ public class Libros extends Biblioteca {
 	 * @param editorial the editorial to set
 	 */
 	public void setEditorial(String editorial) {
-		this.editorial = editorial;
+		if (editorial != null && !editorial.equals("")) {
+			this.editorial = editorial;
+		}
 	}
 
 	/**
@@ -47,31 +48,19 @@ public class Libros extends Biblioteca {
 	 * @param autor the autor to set
 	 */
 	public void setAutor(String autor) {
-		this.autor = autor;
+		if (autor != null && !autor.equals("")) {
+			this.autor = autor;
+		}
 	}
-
-	/**
-	 * @return the réstamo
-	 */
-	public int getRéstamo() {
-		return réstamo;
-	}
-
-	/**
-	 * @param réstamo the réstamo to set
-	 */
-	public void setRéstamo(int réstamo) {
-		this.réstamo = réstamo;
-	};
 
 	public int prestamo() {
-		return réstamo;
+		return 15;
 	}
 
 	public String toString() {
-		String Biblioteca = super.toString();
-		Biblioteca += "\n" + "autor " + autor + "\n";
-		Biblioteca += "\n" + "editorial " + editorial + "\n";
-		return Biblioteca;
+		String biblioteca = super.toString();
+		biblioteca += "autor " + autor + "\n";
+		biblioteca += "editorial " + editorial + "\n";
+		return biblioteca;
 	}
 }

@@ -4,7 +4,7 @@ public class DVD extends Biblioteca {
 	private int anyo;
 	private String director = "";
 	tiposUso genero;
-	private int réstamo = 5;
+	
 
 	private enum tiposUso {
 		documental, serie, película
@@ -65,30 +65,18 @@ public class DVD extends Biblioteca {
 		if (director != null && !director.equals("")) {
 			this.director = director;
 		}
-	};
-
-	/**
-	 * @return the réstamo
-	 */
-	public int getRéstamo() {
-		return réstamo;
 	}
 
-	/**
-	 * @param réstamo the réstamo to set
-	 */
-	public void setRéstamo(int réstamo) {
-		this.réstamo = réstamo;
-	};
+
 
 	public int prestamo() {
-		return anyo;
+		return 5;
 	}
 
 	public String toString() {
-		String DVD = super.toString();
-		DVD += "\n" + "anyo " + anyo + "\n";
-		DVD += "\n" + "director " + director + "\n";
-		return DVD;
+		String dvd = super.toString();
+		dvd += "anyo " + anyo + "\n";
+		dvd += "director " + director + "\n";
+		return dvd;
 	}
 }
