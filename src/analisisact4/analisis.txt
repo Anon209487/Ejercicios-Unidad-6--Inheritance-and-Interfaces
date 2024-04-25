@@ -1,6 +1,6 @@
 
 	
-Contacto extends 
+Contacto  
 
    - nombre (String)
 - telefono (String)
