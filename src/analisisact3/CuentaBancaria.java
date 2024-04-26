@@ -9,27 +9,18 @@ package analisisact3;
 public class CuentaBancaria {
 	Titular[] Titulares = new Titular[3];
 
-	double fondos;
-	double deuda;
-	tipccuentas tipo;
-
-	enum tipccuentas {
-		ahorro, corriente
-	}
+	protected double fondos;
+	protected double deuda;
 
 	public CuentaBancaria() {
 
 	}
 
-	public CuentaBancaria(Titular Titular, String tipcsuentas) {
+	public CuentaBancaria(Titular Titular) {
 		if (Titular != null) {
 			añadirTitular(Titular);
 		}
-		if (tipcsuentas.equals("corriente")) {
-			this.tipo = tipccuentas.corriente;
-		} else if (tipcsuentas.equals("ahorro")) {
-			this.tipo = tipccuentas.ahorro;
-		}
+
 	}
 
 	public double ingresarDinero(double dinero) {
@@ -85,7 +76,7 @@ public class CuentaBancaria {
 	}
 
 	public String toString() {
-		String cuenta = "tipccuentas: " + tipo + "\n";
+		String cuenta = "cuenta " + "\n";
 		cuenta += "Titulares: " + Titulares[0] + Titulares[1] + Titulares[2] + "\n";
 		cuenta += "fondos: " + fondos + "\n";
 		cuenta += "deuda: " + deuda + "\n";

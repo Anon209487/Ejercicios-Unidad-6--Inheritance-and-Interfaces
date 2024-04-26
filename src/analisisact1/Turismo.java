@@ -8,7 +8,7 @@ package analisisact1;
  */
 public class Turismo extends Vehiculo {
 	private int plazas;
-	tiposUso uso;
+	private tiposUso uso;
 
 	private enum tiposUso {
 		profesional, particular
@@ -24,10 +24,10 @@ public class Turismo extends Vehiculo {
 			this.plazas = plazas;
 		}
 		if (uso != null && !uso.equals("")) {
-			if (uso.equals("profesional")) {
-				this.uso = tiposUso.profesional;
-			} else if (uso.equals("particular")) {
-				this.uso = tiposUso.particular;
+			if (uso.equalsIgnoreCase("profesional")) {
+				this.setUso(tiposUso.profesional);
+			} else if (uso.equalsIgnoreCase("particular")) {
+				this.setUso(tiposUso.particular);
 			}
 		}
 	}
@@ -45,6 +45,20 @@ public class Turismo extends Vehiculo {
 		Turismo += "\n" + "plazas " + plazas + "\n";
 		Turismo += "uso " + plazas + "\n";
 		return Turismo;
+	}
+
+	/**
+	 * @return the uso
+	 */
+	public tiposUso getUso() {
+		return uso;
+	}
+
+	/**
+	 * @param uso the uso to set
+	 */
+	public void setUso(tiposUso uso) {
+		this.uso = uso;
 	}
 
 }
