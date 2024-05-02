@@ -23,11 +23,9 @@ public class Turismo extends Vehiculo {
 		if (plazas > 0) {
 			this.plazas = plazas;
 		}
-		if (uso != null && !uso.equals("")) {
-			if (uso.equalsIgnoreCase("profesional")) {
-				this.setUso(tiposUso.profesional);
-			} else if (uso.equalsIgnoreCase("particular")) {
-				this.setUso(tiposUso.particular);
+		if (uso != null && !uso.equals("") ) {
+			if (uso.equals("profesional") || uso.equals("particular")) {
+				this.uso = tiposUso.valueOf(uso);
 			}
 		}
 	}
