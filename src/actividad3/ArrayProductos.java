@@ -7,13 +7,13 @@ package actividad3;
  * 
  */
 public class ArrayProductos {
-	static Productos[] productos = new Productos[10];
+	static Producto[] productos = new Producto[10];
 
 	/**
 	 * 
 	 * @param nombre
 	 */
-	public static void nuevoProductoArrayProductose(Productos nombre) {
+	public static void nuevoProductoArrayProductose(Producto nombre) {
 		boolean verificacion = false;
 		int contador = 0;
 		for (int j = 0; j < 9; j++) {
@@ -55,7 +55,7 @@ public class ArrayProductos {
 	public static void EliminarproductoArray(String nombre, double precio) {
 		// TODO Auto-generated method stub
 
-		Productos producto = new Productos(nombre, precio);
+		Producto producto = new Producto(nombre, precio);
 		for (int j = 0; j < 9; j++) {
 			if (productos[j] != null && (productos[j].equals(producto))) {
 

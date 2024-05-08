@@ -6,7 +6,7 @@ package actividad3;
 /**
  * 
  */
-public class NoPerecedero extends Productos {
+public class NoPerecedero extends Producto {
 	/**
 	 * 
 	 */

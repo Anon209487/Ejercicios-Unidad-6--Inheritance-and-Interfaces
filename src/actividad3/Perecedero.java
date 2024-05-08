@@ -6,7 +6,7 @@ package actividad3;
 /**
  * 
  */
-public class Perecedero extends Productos {
+public class Perecedero extends Producto {
 	private int diasCaducar;
 
 	/**

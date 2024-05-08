@@ -7,7 +7,7 @@ package actividad3;
  * 
  */
 
-public class Productos {
+public class Producto {
 	private String nombre = "";
 	protected double precio;
 
@@ -16,7 +16,7 @@ public class Productos {
 	 * @param nombre
 	 * @param precio
 	 */
-	public Productos(String nombre, double precio) {
+	public Producto(String nombre, double precio) {
 		// TODO Auto-generated constructor stub
 		if (nombre != null && nombre != "") {
 			this.nombre = nombre;
@@ -74,7 +74,7 @@ public class Productos {
 	}
 
 	public boolean equals(Object obj) {
-		Productos empleadoComparacion = (Productos) obj;
+		Producto empleadoComparacion = (Producto) obj;
 		return this.getNombre().equals(empleadoComparacion.getNombre());
 
 	}
